@@ -10,9 +10,16 @@ Reinforcement learning (RL) is a type of machine learning where an agent learns 
 
 ## Challenges
 
-- Balancing exploration and exploitation: The agent needs to explore new actions to find more rewarding strategies while exploiting known actions that yield high rewards.
-- Handling the exploration/exploitation trade-off: Traditional search algorithms generally don’t handle this trade-off, whereas RL algorithms do.
-- Learning from the consequences of actions: RL algorithms learn from the consequences of their actions, making them ideal for scenarios where it’s impractical to model the environment completely before making decisions.
+- **Exploration and Exploitation**: The agent needs to explore new actions to find more rewarding strategies while exploiting known actions that yield high rewards.
+- **Handling the exploration/exploitation trade-off**: Traditional search algorithms generally don’t handle this trade-off, whereas RL algorithms do.
+- **Learning from the consequences of actions**: RL algorithms learn from the consequences of their actions, making them ideal for scenarios where it’s impractical to model the environment completely before making decisions.
+
+### Solutions
+
+- **Exploration and Exploitation**: I used ε-Greedy and Softmax policies to balance exploration and exploitation. ε-Greedy allows the agent to explore random actions with a probability of ε, while Softmax selects actions based on a probability distribution.
+- **Exploration/Exploitation Trade-off**: By tuning the parameters ε (for ε-Greedy) and τ (for Softmax), I was able to find a balance that provided stable learning and improved performance.
+- **Learning from Actions**: Both Q-learning and SARSA algorithms were implemented to update the Q-values based on the agent's actions and the resulting rewards. Q-learning, being an off-policy algorithm, updates Q-values using the maximum possible future reward, while SARSA, being an on-policy algorithm, updates Q-values based on the actions actually taken by the policy.
+
 
 ## Dataset
 
