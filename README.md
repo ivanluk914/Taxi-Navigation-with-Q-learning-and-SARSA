@@ -70,6 +70,9 @@ The results show that the Softmax policy tends to offer better performance than 
 
 4. Train the models and visualize the results by executing the cells in the notebook.
 
+## Discussion Note
+For further discussion and analysis, refer to the `discussion note.pdf`.
+
 ## Acknowledgements
 - The Gym library for providing the Taxi-v3 environment.
 - [Geeks For Geeks](https://www.geeksforgeeks.org/differences-between-q-learning-and-sarsa/) for the detailed explanation of Q-learning and SARSA algorithms.
