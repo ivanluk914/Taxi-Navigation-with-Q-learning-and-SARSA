@@ -25,14 +25,14 @@ The dataset used in this project is the `Taxi-v3` environment from the `Gym` lib
 Q-learning is an off-policy algorithm that updates its Q-values using the maximum possible future reward, independently of the agent’s actions.
 
 Update rule:
-\[ Q(s, a) \leftarrow Q(s, a) + \alpha [r + \gamma \max_{a'} Q(s', a') - Q(s, a)] \]
+$Q(s, a) \leftarrow Q(s, a) + \alpha [r + \gamma \max_{a^{\prime}} Q(s^{\prime}, a^{\prime}) - Q(s, a)]$
 
 ### SARSA
 
 SARSA (State-Action-Reward-State-Action) is an on-policy algorithm that updates its Q-values based on the actions actually taken by the policy, including the exploration steps.
 
 Update rule:
-\[ Q(s, a) \leftarrow Q(s, a) + \alpha [r + \gamma Q(s', a') - Q(s, a)] \]
+$Q(s, a) \leftarrow Q(s, a) + \alpha [r + \gamma Q(s^{\prime}, a^{\prime}) - Q(s, a)]$
 
 ### Action Selection Policies
 
