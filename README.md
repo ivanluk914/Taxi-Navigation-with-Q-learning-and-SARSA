@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project implements **Q-learning** and **SARSA** algorithms to solve a taxi navigation problem using the `Gym` library. The goal is to train a model that minimizes the number of steps the taxi takes to pick up and drop off a passenger while avoiding illegal actions.
+This project implements **Q-learning** and **SARSA** algorithms to solve a taxi navigation problem using the OpenAI `Gym` library. The goal is to train a model that minimizes the number of steps the taxi takes to pick up and drop off a passenger while avoiding illegal actions.
 
 ## Background
 
@@ -16,7 +16,7 @@ Reinforcement learning (RL) is a type of machine learning where an agent learns 
 
 ## Dataset
 
-The dataset used in this project is the `Taxi-v3` environment from the `Gym` library. The environment consists of a taxi that needs to pick up and drop off a passenger at designated locations. The state of the environment changes based on the taxi’s actions.
+The dataset used in this project is the `Taxi-v3` environment from the OpenAI `Gym` library. The environment consists of a taxi that needs to pick up and drop off a passenger at designated locations. The state of the environment changes based on the taxi’s actions.
 
 ## Method
 
