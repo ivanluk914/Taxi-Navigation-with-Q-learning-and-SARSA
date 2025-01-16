@@ -37,7 +37,7 @@ $Q(s, a) \leftarrow Q(s, a) + \alpha [r + \gamma Q(s^{\prime}, a^{\prime}) - Q(s
 ### Action Selection Policies
 
 1. **Greedy**: The agent always chooses the action with the highest estimated reward.
-2. **ε-Greedy**: The agent chooses the action with the highest estimated reward with probability \(1 - \epsilon\) and a random action with probability \(\epsilon\).
+2. **ε-Greedy**: The agent chooses the action with the highest estimated reward with probability $\(1 - \epsilon\)$ and a random action with probability $\(\epsilon\)$.
 3. **Softmax**: Actions are selected according to probabilities proportional to the exponential of their estimated values.
 
 ## Results
